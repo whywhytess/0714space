@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Editors / IDE
+.vscode/
+.idea/
+*.swp
+
+# Secrets — 永不提交 (see CLAUDE.md §2 安全红线)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+*.tfstate
+*.tfstate.*
+
+# Dependencies / build (占位，随各 app 落地再细化)
+node_modules/
+dist/
+build/
+.next/
+coverage/
