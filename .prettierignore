@@ -1,0 +1,9 @@
+node_modules
+dist
+build
+coverage
+.next
+pnpm-lock.yaml
+# Week 0/文档保持原样，避免重排中文 Markdown
+docs
+*.md
